@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/indian-flag.png" alt="Indian Flag" class="flag">
+        <h1>Election Commission of India</h1>
+    </header>
+    <main>
+        <h2>Cast Your Vote</h2>
+        <form id="voteForm">
+            <label>
+                <input type="radio" name="candidate" value="bjp" required>
+                <img src="images/bjp.png" alt="BJP" class="party-symbol">
+                BJP
+            </label>
+            <label>
+                <input type="radio" name="candidate" value="congress" required>
+                <img src="images/congress.png" alt="Congress" class="party-symbol">
+                Congress
+            </label>
+            <label>
+                <input type="radio" name="candidate" value="aap" required>
+                <img src="images/aap.png" alt="AAP" class="party-symbol">
+                AAP
+            </label>
+            <label>
+                <input type="radio" name="candidate" value="sp" required>
+                <img src="images/sp.png" alt="SP" class="party-symbol">
+                SP
+            </label>
+            <label>
+                <input type="radio" name="candidate" value="bsp" required>
+                <img src="images/bsp.png" alt="BSP" class="party-symbol">
+                BSP
+            </label>
+            <button type="submit">Submit Vote</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
